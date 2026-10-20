@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build weekly Markdown archives from the public Shift feed (https://kai-nex.com/shift/feed.json).
 
-Items are grouped by ISO week of `published_date`. One-line summaries only (no full text).
+Also accepts any jsonfeed.org (v1.x) feed via --feed. Items are grouped by ISO week of `published_date`. One-line summaries only (no full text).
 
 Usage:
   python3 scripts/build_weekly.py --all [--update-readme]      # backfill every week
@@ -23,6 +23,18 @@ def load(src):
             return json.load(r)
     return json.load(open(src, encoding="utf-8"))
 
+def normalize(feed):
+    """Return Shift-style events from either the Shift feed or a jsonfeed.org feed (version 1.x)."""
+    if "events" in feed:
+        return feed["events"]
+    out = []
+    for it in feed.get("items", []):
+        src = it.get("external_url") or it.get("url") or ""
+        out.append({"id": it.get("id", src), "title": it.get("title") or "", "summary": it.get("summary") or it.get("content_text") or "",
+                    "published_date": (it.get("date_published") or "")[:10], "reference_numbers": {src: 1} if src else {},
+                    "link": it.get("url") or src})
+    return out
+
 def one_line(text, n=120):
     t = " ".join((text or "").split())
     return t if len(t) <= n else t[:n].rstrip() + "…"
@@ -41,7 +53,7 @@ def items_md(events):
     for e in events:
         src = next(iter(e.get("reference_numbers") or {}), "")
         out += [f"- **{e['title']}**  ", f"  {one_line(e.get('summary'))}  ",
-                f"  原始来源 Source: <{src}> · Shift: <{SITE}{e['id']}>"]
+                (f"  原始来源 Source: <{src}> · Link: <{e['link']}>" if "link" in e else f"  原始来源 Source: <{src}> · Shift: <{SITE}{e['id']}>")]
     return "\n".join(out)
 
 def sort_events(evs):
@@ -83,7 +95,7 @@ def main():
     p.add_argument("-o", "--out")
     p.add_argument("--update-readme", action="store_true")
     a = p.parse_args()
-    events = [e for e in load(a.feed).get("events", []) if e.get("published_date") and e.get("title")]
+    events = [e for e in normalize(load(a.feed)) if e.get("published_date") and e.get("title")]
     groups = defaultdict(list)
     for e in events:
         groups[week_of(e["published_date"])].append(e)
