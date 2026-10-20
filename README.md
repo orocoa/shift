@@ -7,7 +7,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Website](https://img.shields.io/badge/site-kai--nex.com%2Fshift-blue)](https://kai-nex.com/shift/)
-[![JSON Feed](https://img.shields.io/badge/feed-JSON-orange)](https://kai-nex.com/shift/feed.json)
+[![Feed](https://img.shields.io/badge/feed-JSON-orange)](https://kai-nex.com/shift/feed.json)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/orocoa/shift?style=social)](https://github.com/orocoa/shift/stargazers)
 
@@ -19,14 +19,14 @@
 - [如何关注 How to follow](#如何关注-how-to-follow)
 - [本周 This week（2026-W43）](#本周-this-week2026-w43)
 - [归档 Archive](#归档-archive)
-- [自己生成 Build it yourself](#自己生成-build-it-yourself)
+- [使用与自建 Use it / Build your own](#使用与自建-use-it--build-your-own)
 - [贡献 Contributing](#贡献-contributing)
 - [许可 License](#许可-license)
 
 ## 如何关注 How to follow
 - ⭐ **Star** 本仓库，⭐ Star this repo to bookmark it.
 - 👀 **Watch → Custom → Releases / All activity**，每周更新提醒 for weekly update notifications.
-- 📡 订阅 JSON Feed（RSS 阅读器如 NetNewsWire / Feedbin / Inoreader 支持）Subscribe: `https://kai-nex.com/shift/feed.json`
+- 📡 数据源（Shift 自有 JSON 格式，适合程序读取）Data feed (Shift's own JSON, for scripts): `https://kai-nex.com/shift/feed.json`，见 see [docs/REUSE.md](docs/REUSE.md)
 - 🌐 每日浏览 Browse daily: https://kai-nex.com/shift/
 
 <!-- THIS_WEEK:START -->
@@ -57,16 +57,23 @@
 - [2026-W17](weekly/2026-W17.md) · 1 条
 <!-- ARCHIVE:END -->
 
-## 自己生成 Build it yourself
+## 使用与自建 Use it / Build your own
+
+- 读取数据源、字段说明、用任意 jsonfeed.org 源生成自己的周报：[docs/REUSE.md](docs/REUSE.md)
+- Read the feed, see the fields, or build your own weekly from any jsonfeed.org feed: [docs/REUSE.md](docs/REUSE.md)
+
 ```bash
 python3 scripts/build_weekly.py --all --update-readme   # 或 or: --latest --update-readme
 ```
 模板 Template: [weekly/TEMPLATE.md](weekly/TEMPLATE.md)
 
 ## 贡献 Contributing
-欢迎推荐一手来源的 AI 新闻，见 [CONTRIBUTING.md](CONTRIBUTING.md). Suggestions with primary sources welcome.
+> 🙌 **欢迎参与 Contributions welcome!** [推荐新闻 Submit a news item](https://github.com/orocoa/shift/issues/new?template=submit-news.yml) · [good first issues](https://github.com/orocoa/shift/labels/good%20first%20issue) · [讨论区 Discussions](https://github.com/orocoa/shift/discussions)
+
+详见 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## 许可 License
-内容采用 Content licensed under [CC BY 4.0](LICENSE).
+- 内容 Content: [CC BY 4.0](LICENSE)
+- 代码 Code (`scripts/`): [MIT](LICENSE-CODE)
 
 <sub>关键词 Keywords: AI news, LLM, 大模型, 每周 AI 新闻, AI 周报, awesome list, newsletter, model releases</sub>
