@@ -1,0 +1,27 @@
+name: "Submit a news item / 推荐新闻"
+description: "Suggest an AI news item. A primary (official) source is required. / 推荐一条 AI 新闻，必须附一手来源。"
+title: "[News] "
+labels: ["news-submission"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: "Primary source URL / 一手来源链接"
+      description: "Official blog, docs, changelog or paper. No reposts. / 官方博客、文档、更新日志或论文，不接受转载。"
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: "Publish date / 发布日期"
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: "One-line summary / 一句话摘要"
+      description: "Your own words, no copied text. Mark vendor numbers as vendor claims. / 用自己的话，不复制原文；厂商数据注明为厂商自述。"
+    validations:
+      required: true

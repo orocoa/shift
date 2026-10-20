@@ -1,0 +1,14 @@
+name: "Bug / idea · 问题或建议"
+description: "Report a wrong link or summary, or suggest an improvement. / 报告错误链接或摘要，或提出改进建议。"
+title: "[Bug/Idea] "
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: "What happened or what do you suggest? / 发生了什么，或你有什么建议？"
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: "Where (file, week, or link) / 位置（文件、周次或链接）"

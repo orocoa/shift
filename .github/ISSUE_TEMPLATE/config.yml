@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Shift website / 网站
+    url: https://kai-nex.com/shift/
+    about: Browse the daily AI news on Shift. / 在 Shift 浏览每日 AI 新闻。
+  - name: Discussions / 讨论区
+    url: https://github.com/orocoa/shift/discussions
+    about: Questions and general chat. / 提问与交流。
