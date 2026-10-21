@@ -24,10 +24,10 @@
 - [许可 License](#许可-license)
 
 ## 如何关注 How to follow
-- ⭐ **Star** 本仓库，⭐ Star this repo to bookmark it.
-- 👀 **Watch → Custom → Releases / All activity**，每周更新提醒 for weekly update notifications.
-- 📡 数据源（Shift 自有 JSON 格式，适合程序读取）Data feed (Shift's own JSON, for scripts): `https://kai-nex.com/shift/feed.json`，见 see [docs/REUSE.md](docs/REUSE.md)
-- 🌐 每日浏览 Browse daily: https://kai-nex.com/shift/
+- ⭐ **Star** 本仓库，⭐ Star this repository to bookmark Shift and easily come back to it.
+- 👀 **Watch → Custom → Releases / All activity**，每周更新提醒 Set Watch to Custom and choose Releases or All activity to receive weekly update notifications.
+- 📡 数据源（Shift 自有 JSON 格式，适合程序读取）Data feed in Shift's own JSON format (not RSS), suitable for scripts: `https://kai-nex.com/shift/feed.json`，见 see [docs/REUSE.md](docs/REUSE.md) for format details and reuse instructions.
+- 🌐 每日浏览 Browse daily on the [Shift website](https://kai-nex.com/shift/).
 
 <!-- THIS_WEEK:START -->
 ## 本周 This week（2026-W43）
@@ -69,7 +69,7 @@
 ## 使用与自建 Use it / Build your own
 
 - 读取数据源、字段说明、用任意 jsonfeed.org 源生成自己的周报：[docs/REUSE.md](docs/REUSE.md)
-- Read the feed, see the fields, or build your own weekly from any jsonfeed.org feed: [docs/REUSE.md](docs/REUSE.md)
+- Read the feed field reference, or build your own weekly digest from the Shift feed or any jsonfeed.org (v1.x) feed: [docs/REUSE.md](docs/REUSE.md)
 
 ```bash
 python3 scripts/build_weekly.py --all --update-readme   # 或 or: --latest --update-readme
@@ -79,7 +79,7 @@ python3 scripts/build_weekly.py --all --update-readme   # 或 or: --latest --upd
 ## 贡献 Contributing
 > 🙌 **欢迎参与 Contributions welcome!** [推荐新闻 Submit a news item](https://github.com/orocoa/shift/issues/new?template=submit-news.yml) · [good first issues](https://github.com/orocoa/shift/labels/good%20first%20issue) · [讨论区 Discussions](https://github.com/orocoa/shift/discussions)
 
-详见 See [CONTRIBUTING.md](CONTRIBUTING.md).
+详见 See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution guidelines.
 
 ## 许可 License
 - 内容 Content: [CC BY 4.0](LICENSE)
