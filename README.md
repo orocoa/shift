@@ -44,11 +44,20 @@
 - **MiniMax 发布 M3.1 Flash：Agent 向降价，输入 $0.15/百万 token**  
   MiniMax 正式推出 MiniMax M3.1 Flash，称其为曾匿名处理逾 200 万亿 token 的 Space Bunny 的后续版本，在 Agent、编码与 Computer Use 等基准上接近领先模型，在线推理近三倍加速…  
   原始来源 Source: <https://www.minimax.io/blog/minimax-m31f> · Shift: <https://kai-nex.com/shift/#/event/evt-bf46fbebf5b2b673>
+- **DeepSeek 开源生产推理框架 DeepInfer：首发支持 V4.1-Flash，可跑 NVIDIA SM100 与昇腾 950**  
+  DeepSeek 在 GitHub 以 Apache-2.0 许可开源 DeepInfer，称其为支撑自家大规模生产服务的推理框架；本次版本提供离线推理，首发支持 DeepSeek-V4.1-Flash，硬件覆盖 NVIDIA SM100…  
+  原始来源 Source: <https://github.com/deepseek-ai/DeepInfer> · Shift: <https://kai-nex.com/shift/#/event/evt-8bfb9e856bb621b7>
+- **美国国土安全部下令联邦民事机构排除并移除 DeepSeek 产品，涵盖基于其实现的第三方服务**  
+  美国国土安全部依 2018 年《联邦采购供应链安全法》（FASCSA）发布命令：联邦民事机构采购中排除 DeepSeek 及其关联实体的 IT 产品与服务，并从机构系统中移除 DeepSeek 产品以及基于 DeepSeek 实现开发的第三…  
+  原始来源 Source: <https://public-inspection.federalregister.gov/2026-21447.pdf> · Shift: <https://kai-nex.com/shift/#/event/evt-7c4427f03ee376c9>
+- **Mistral 发布 Voxtral 3 语音智能体栈：50+ 语言转写、情绪化 TTS 与实时 SDK，可自部署**  
+  Mistral 推出 Voxtral 3 系列：转写模型 Voxtral Small/Mini Transcribe 3 覆盖 50 余种语言，Mini 版 4B 参数、每分钟 0.0035 美元；实时转写延迟低于 500 毫秒；Voxtr…  
+  原始来源 Source: <https://mistral.ai/news/voxtral-3/> · Shift: <https://kai-nex.com/shift/#/event/evt-abad49b4a1952898>
 <!-- THIS_WEEK:END -->
 
 <!-- ARCHIVE:START -->
 ## 归档 Archive
-- [2026-W43](weekly/2026-W43.md) · 4 条
+- [2026-W43](weekly/2026-W43.md) · 7 条
 - [2026-W42](weekly/2026-W42.md) · 32 条
 - [2026-W41](weekly/2026-W41.md) · 39 条
 - [2026-W40](weekly/2026-W40.md) · 54 条
