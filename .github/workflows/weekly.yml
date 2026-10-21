@@ -1,0 +1,26 @@
+name: weekly
+on:
+  schedule:
+    - cron: "0 1 * * 1"   # Monday 01:00 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: weekly
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build latest week from Shift feed
+        run: python3 scripts/build_weekly.py --latest --update-readme
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then echo "No changes"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add README.md weekly/
+          git commit -m "Weekly update: refresh AI news index from kai-nex.com/shift feed"
+          git push
