@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build weekly Markdown archives from the public Shift feed (https://kai-nex.com/shift/feed.json).
+"""Build weekly Markdown archives from the public Shift feed (https://shift.kai-nex.com/feed.json).
 
 Also accepts any jsonfeed.org (v1.x) feed via --feed. Items are grouped by ISO week of `published_date`. One-line summaries only (no full text).
 
@@ -11,8 +11,8 @@ Usage:
 import argparse, datetime as dt, json, os, re, sys, urllib.request
 from collections import defaultdict
 
-FEED = "https://kai-nex.com/shift/feed.json"
-SITE = "https://kai-nex.com/shift/#/event/"
+FEED = "https://shift.kai-nex.com/feed.json"
+SITE = "https://shift.kai-nex.com/event/"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOTE = "> 摘要基于官方发布，厂商数据为厂商自述。Summaries rely on official sources; vendor figures are vendor claims."
 
@@ -53,7 +53,7 @@ def items_md(events):
     for e in events:
         src = next(iter(e.get("reference_numbers") or {}), "")
         out += [f"- **{e['title']}**  ", f"  {one_line(e.get('summary'))}  ",
-                (f"  原始来源 Source: <{src}> · Link: <{e['link']}>" if "link" in e else f"  原始来源 Source: <{src}> · Shift: <{SITE}{e['id']}>")]
+                (f"  原始来源 Source: <{src}> · Link: <{e['link']}>" if "link" in e else f"  原始来源 Source: <{src}> · Shift: <{SITE}{e['id']}/>")]
     return "\n".join(out)
 
 def sort_events(evs):

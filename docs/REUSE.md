@@ -2,10 +2,10 @@
 
 ## 1. 读取 Shift 数据源 Consume the Shift feed
 
-`https://kai-nex.com/shift/feed.json` 是 Shift 自己的 JSON 格式（**不是** jsonfeed.org 标准，普通 RSS 阅读器无法直接订阅）。It is Shift's own JSON schema (**not** jsonfeed.org), so regular RSS readers can't subscribe to it directly.
+`https://shift.kai-nex.com/feed.json` 是 Shift 自己的 JSON 格式（**不是** jsonfeed.org 标准，普通 RSS 阅读器无法直接订阅）。It is Shift's own JSON schema (**not** jsonfeed.org), so regular RSS readers can't subscribe to it directly.
 
 ```bash
-curl -s https://kai-nex.com/shift/feed.json | python3 -c "import json,sys; d=json.load(sys.stdin); [print(e['published_date'], e['title']) for e in d['events'][:5]]"
+curl -s https://shift.kai-nex.com/feed.json | python3 -c "import json,sys; d=json.load(sys.stdin); [print(e['published_date'], e['title']) for e in d['events'][:5]]"
 ```
 
 ### 顶层字段 Top-level fields
@@ -20,7 +20,7 @@ curl -s https://kai-nex.com/shift/feed.json | python3 -c "import json,sys; d=jso
 ### 条目字段 Event fields (`events[]`)
 | Field | Type | Notes |
 |---|---|---|
-| `id` | str | e.g. `evt-1317a947cf89ccb5`; page: `https://kai-nex.com/shift/#/event/<id>` |
+| `id` | str | e.g. `evt-1317a947cf89ccb5`; page: `https://shift.kai-nex.com/#/event/<id>` |
 | `title`, `summary` | str | Chinese title and summary |
 | `translations.en` | object | English title/summary when available |
 | `published_date` | str | `YYYY-MM-DD` |
@@ -42,5 +42,5 @@ python3 scripts/build_weekly.py --latest --update-readme      # refresh README (
 ```
 
 ## 许可 License
-- 内容 Content (README, weekly/, docs/): CC BY 4.0, see [LICENSE](../LICENSE). Please credit "Shift (https://kai-nex.com/shift/)".
+- 内容 Content (README, weekly/, docs/): CC BY 4.0, see [LICENSE](../LICENSE). Please credit "Shift (https://shift.kai-nex.com/)".
 - 代码 Code (scripts/): MIT, see [LICENSE-CODE](../LICENSE-CODE).

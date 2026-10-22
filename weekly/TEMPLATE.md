@@ -4,6 +4,6 @@
 
 - **标题 Title**  
   一句话摘要 One-line summary（不复制全文 / no full text）  
-  原始来源 Source: <https://...> · Shift: <https://kai-nex.com/shift/#/event/evt-...>
+  原始来源 Source: <https://...> · Shift: <https://shift.kai-nex.com/#/event/evt-...>
 
 > 摘要基于官方发布，厂商数据为厂商自述。Summaries rely on official sources; vendor figures are vendor claims.
