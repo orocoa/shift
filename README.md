@@ -1,9 +1,14 @@
+ / <!-- ARCHIVE:* --> 区块自 live 原样拷贝。
+品牌：「？｜Shift」· 正式站 https://shift.kai-nex.com/ · feed.json 为站点自有 JSON（非 RSS）
+══════════════════════════════════════════════════════════════
+-->
+
 <div align="center">
 
 # ？｜Shift · Awesome 每周 AI 新闻精选 · Weekly AI News & LLM Index
 
-**每周 AI 新闻 / 大模型（LLM）动态精选：一句话摘要 + 官方原始来源，不搬运全文。**  
-**A curated, source-first weekly index of AI news and LLM releases — one-line summaries with original sources.**
+**每周 AI / 大模型动态：一句话说清发生了什么，并链回官方原文——不搬运全文、不当二手新闻站。**  
+**A source-first weekly index of AI & LLM releases: one-line summaries with links to the original sources — not full-text scrapes.**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Website](https://img.shields.io/badge/site-shift.kai--nex.com-blue)](https://shift.kai-nex.com/)
@@ -16,19 +21,32 @@
 </div>
 
 ## 目录 Contents
-- [如何关注 How to follow](#如何关注-how-to-follow)
+- [为何是 Shift Why Shift](#为何是-shift--why-shift)
+- [如何关注 How to follow](#如何关注--how-to-follow)
 - [本周 This week（2026-W43）](#本周-this-week2026-w43)
 - [归档 Archive](#归档-archive)
 - [使用与自建 Use it / Build your own](#使用与自建-use-it--build-your-own)
 - [贡献 Contributing](#贡献-contributing)
 - [许可 License](#许可-license)
 
-## 如何关注 How to follow
-- ⭐ **Star** 本仓库，⭐ Star this repository to bookmark Shift and easily come back to it.
-- 👀 **Watch → Custom → Releases / All activity**，每周更新提醒 Set Watch to Custom and choose Releases or All activity to receive weekly update notifications.
-- 📡 数据源（Shift 自有 JSON 格式，适合程序读取）Data feed in Shift's own JSON format (not RSS), suitable for scripts: `https://shift.kai-nex.com/feed.json`，见 see [docs/REUSE.md](docs/REUSE.md) for format details and reuse instructions.
-- 🌐 每日浏览 Browse daily on the [Shift website](https://shift.kai-nex.com/).
-- ℹ️ 关于页 About（随站点语言，无页内中英切换）：[中文 /about/](https://shift.kai-nex.com/about/) · [English /en/about/](https://shift.kai-nex.com/en/about/)。站点「联系」对话框的 GitHub 指向本仓库 `orocoa/shift`。
+## 为何是 Shift · Why Shift
+
+| | 中文 | English |
+| --- | --- | --- |
+| 1 | **只链原文** — 每条一句话摘要 + 官方/一手来源，不堆全文 | **Source-first** — one-line summary + original link, no full-text dump |
+| 2 | **周报可星标** — GitHub 当书签：本周区 + `weekly/` 归档 | **Star-able archive** — this-week block + `weekly/` history on GitHub |
+| 3 | **可程序复用** — `feed.json` + `scripts/build_weekly.py` 自己刷 | **Machine-readable** — `feed.json` + script to rebuild weeklies |
+
+站点 Site → https://shift.kai-nex.com/  
+关于 About → [中文](https://shift.kai-nex.com/about/) · [EN](https://shift.kai-nex.com/en/about/)
+
+## 如何关注 · How to follow
+
+- ⭐ Star 本仓 — 收藏周报入口
+- 👀 Watch → Custom → Releases / All activity — 每周更新提醒
+- 🌐 每日浏览 [shift.kai-nex.com](https://shift.kai-nex.com/)
+- 📡 程序订阅 [`feed.json`](https://shift.kai-nex.com/feed.json)（Shift JSON，非 RSS）→ [docs/REUSE.md](docs/REUSE.md)
+- ℹ️ 关于 About：[中文 /about/](https://shift.kai-nex.com/about/) · [English /en/about/](https://shift.kai-nex.com/en/about/)（站点按路径分语言，无页内切换）
 
 <!-- THIS_WEEK:START -->
 ## 本周 This week（2026-W43）
@@ -112,4 +130,4 @@ python3 scripts/build_weekly.py --all --update-readme   # 或 or: --latest --upd
 - 内容 Content: [CC BY 4.0](LICENSE)
 - 代码 Code (`scripts/`): [MIT](LICENSE-CODE)
 
-<sub>关键词 Keywords: AI news, LLM, 大模型, 每周 AI 新闻, AI 周报, awesome list, newsletter, model releases</sub>
+<sub>关键词 Keywords: AI news, LLM, 大模型, 每周 AI 新闻, AI 周报, awesome list, newsletter, model releases, source-first, feed.json</sub>
