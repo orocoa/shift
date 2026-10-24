@@ -28,6 +28,7 @@
 - 👀 **Watch → Custom → Releases / All activity**，每周更新提醒 Set Watch to Custom and choose Releases or All activity to receive weekly update notifications.
 - 📡 数据源（Shift 自有 JSON 格式，适合程序读取）Data feed in Shift's own JSON format (not RSS), suitable for scripts: `https://shift.kai-nex.com/feed.json`，见 see [docs/REUSE.md](docs/REUSE.md) for format details and reuse instructions.
 - 🌐 每日浏览 Browse daily on the [Shift website](https://shift.kai-nex.com/).
+- ℹ️ 关于页 About（随站点语言，无页内中英切换）：[中文 /about/](https://shift.kai-nex.com/about/) · [English /en/about/](https://shift.kai-nex.com/en/about/)。站点「联系」对话框的 GitHub 指向本仓库 `orocoa/shift`。
 
 <!-- THIS_WEEK:START -->
 ## 本周 This week（2026-W43）
