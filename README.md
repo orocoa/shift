@@ -54,6 +54,15 @@
 - **Kimi K3.1 Pro 发布：3T 级开源权重旗舰，权重计划 11 月 4 日放出**  
   月之暗面宣布 Kimi K3.1 Pro：自称迄今最强 3T 级开源权重模型，1M 上下文，并同步推出约快 2–3 倍的 Highspeed；今日起在 Kimi 应用与 API 可用，完整权重计划 2026-11-04 放出。厂商给出 Te…  
   原始来源 Source: <https://www.kimi.ai/blog/kimi-k3-1-pro> · Shift: <https://shift.kai-nex.com/event/evt-3c30f16ec02df6e0/>
+- **Block 发布 Dessa：自称纯语音训练的全双工 speech-to-speech 研究预览**  
+  Block 推出 Dessa，称其为从零仅用人类对话语音训练、无文本管线的真 speech-to-speech 全双工模型，可本地跑在 MacBook Pro M4 Max 或更好硬件；目前为研究预览/候补，尚无公开 API 与权重，并优先…  
+  原始来源 Source: <https://block.xyz/dessa> · Shift: <https://shift.kai-nex.com/event/evt-da46bff48b7c1439/>
+- **三名被辞 OpenAI 安全研究员：从未被书面告知所谓泄露内容**  
+  据 THE DECODER 2026-10-24 跟进（归因 Wall Street Journal 采访），Tomek Korbak、Mikita Balesni、Jasmine Wang 否认泄露机密，称从未被书面告知他们「究竟泄露了什…  
+  原始来源 Source: <https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/> · Shift: <https://shift.kai-nex.com/event/evt-2965444d3bd94670/>
+- **论文：固定模型下编程 harness 多花钱少提分，成本可差约 3×**  
+  山东大学 Yangze Liu、Zhongyi Han 的 arXiv:2610.04433 在 SWE-bench Verified 上固定模型比较 Claude Code、mini-SWE-agent 与 OpenCode：重型与轻型…  
+  原始来源 Source: <https://arxiv.org/abs/2610.04433> · Shift: <https://shift.kai-nex.com/event/evt-e85ce71dc3ffcb80/>
 - **Google 发布 Agent Compute Engine：每台智能体一台硬件隔离 microVM**  
   Google Cloud 在 AGNTCon+MCPCon 宣布 Agent Compute Engine：为智能体提供快速启停的硬件隔离 microVM，已用于支撑 Gemini 工作任务，客户预览预计未来数月开放；设计强调沙箱内零长期凭…  
   原始来源 Source: <https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance> · Shift: <https://shift.kai-nex.com/event/evt-fa36d1b55b0fa884/>
@@ -87,22 +96,13 @@
 - **Decoder：OpenAI GPT-5.6 Sol 与 Gemini 4 Argon 发现影响海量网站的关键 PHP 漏洞**  
   THE DECODER 报道称，OpenAI 的 GPT-5.6 Sol 在 Patch the Planet 行动中发现被称为近年来影响最大的安全问题之一的关键 PHP 漏洞；安全公司 Wiz 借助自有平台与 Google Gemini…  
   原始来源 Source: <https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/> · Shift: <https://shift.kai-nex.com/event/evt-71156345cb509129/>
-- **Mistral 与 NVIDIA 推进工业工程物理 AI：Large 4 权重拟十月末开源**  
-  Mistral 宣布与 NVIDIA 协作打造 AI 原生工程工作流，将 Mistral Large 4 与 CUDA-X、Warp 及 Omniverse 结合，并计划发布公开物理基准与 CAE/EDA 智能体评测；Large 4 约一万…  
-  原始来源 Source: <https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering> · Shift: <https://shift.kai-nex.com/event/evt-7fe0af7ef05adcc5/>
-- **Meta 详解 Prometheus：俄亥俄吉瓦级超算，目标约百万 GPU**  
-  Meta 工程博客介绍位于俄亥俄州 New Albany 的吉瓦级超算集群 Prometheus：一期已完成并用于训练 Muse 系列基础模型（含 Muse Wonder），现正继续扩容，目标规模约 100 万 GPU，并采用闭式液冷等效率…  
-  原始来源 Source: <https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/> · Shift: <https://shift.kai-nex.com/event/evt-1317a947cf89ccb5/>
-- **Inception 发布 Mercury 3：称对标 Luna/Haiku，约 1068 tok/s**  
-  Inception Labs 发布扩散式大模型 Mercury 3，官方称在多项基准上优于或持平 GPT-6 Luna 与 Claude Haiku 5.5，NVIDIA GPU 上输出约 1068 token/秒（相对上述速度优化模型约快…  
-  原始来源 Source: <https://www.inceptionlabs.ai/blog/introducing-mercury-3> · Shift: <https://shift.kai-nex.com/event/evt-bbee36b90875094a/>
 
-[查看本周全部 23 条 See all →](weekly/2026-W43.md)
+[查看本周全部 26 条 See all →](weekly/2026-W43.md)
 <!-- THIS_WEEK:END -->
 
 <!-- ARCHIVE:START -->
 ## 归档 Archive
-- [2026-W43](weekly/2026-W43.md) · 23 条
+- [2026-W43](weekly/2026-W43.md) · 26 条
 - [2026-W42](weekly/2026-W42.md) · 32 条
 - [2026-W41](weekly/2026-W41.md) · 39 条
 - [2026-W40](weekly/2026-W40.md) · 54 条
