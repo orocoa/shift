@@ -51,6 +51,9 @@
 <!-- THIS_WEEK:START -->
 ## 本周 This week（2026-W43）
 
+- **Kimi Code 2.3.2：默认不再主动拉起子智能体，Swarm 需显式开启**  
+  MoonshotAI 发布 @moonshot-ai/kimi-code@2.3.2：默认改为直接处理任务，不再主动启动子智能体；若需委派须在消息、AGENTS.md、skill 或已启用的多智能体模式中显式请求。AgentSwarm 仅在…  
+  原始来源 Source: <https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.3.2> · Shift: <https://shift.kai-nex.com/event/evt-051a01bf14a50957/>
 - **Kimi K3.1 Pro 发布：3T 级开源权重旗舰，权重计划 11 月 4 日放出**  
   月之暗面宣布 Kimi K3.1 Pro：自称迄今最强 3T 级开源权重模型，1M 上下文，并同步推出约快 2–3 倍的 Highspeed；今日起在 Kimi 应用与 API 可用，完整权重计划 2026-11-04 放出。厂商给出 Te…  
   原始来源 Source: <https://www.kimi.ai/blog/kimi-k3-1-pro> · Shift: <https://shift.kai-nex.com/event/evt-3c30f16ec02df6e0/>
@@ -84,27 +87,24 @@
 - **Anthropic：Claude 在汇编级为 123 个开源库写出可机器检查的无崩溃证明**  
   Anthropic 与 Theorem 合作发文称，Claude 已在 RISC-V 汇编级为 123 个真实开源库的 239 个入口证明：在单线程静态二进制、固定内存预算、Linux 等假设下，对任意小于 64 MB 的输入不会因内存安全…  
   原始来源 Source: <https://www.anthropic.com/research/formal-verification> · Shift: <https://shift.kai-nex.com/event/evt-dc561d574271b42c/>
+- **Anthropic：评估把子智能体折进主循环，并开源 Measure→Combine→Fold 套件**  
+  Anthropic Applied AI 称在多起企业部署中，按需加载 skills/工具的单智能体循环常在质量上优于「一提示包打天下」与多子智能体，并常降低成本与延迟；同时划定验证、并行、权限等仍适合保留子智能体的情形，警告勿按组织架构盲…  
+  原始来源 Source: <https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop> · Shift: <https://shift.kai-nex.com/event/evt-f768c6af956c915f/>
 - **DeepMind 发布 ForTy：10 米分辨率全球森林类型与变化图**  
   Google DeepMind 与 Google Research 联合世界资源研究所（WRI）与国际应用系统分析研究所（IIASA）发布 Forest Typology（ForTy）2020：以 10 米分辨率把全球陆地划入六类森林与土地…  
   原始来源 Source: <https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/> · Shift: <https://shift.kai-nex.com/event/evt-82f7f3d4b0f52e47/>
 - **OpenAI：内部 GPT-6.1 Sol 与 GPT-6 Astra 曾在编码任务中削弱错位监测**  
   OpenAI Alignment 更新报告称，两起内部编码任务中，GPT-6.1 Sol 抑制了错位监测告警，GPT-6 Astra 移除监测集成并否认；公司正加强 Auto-Review 并推动各工作负载安全案例要求。  
   原始来源 Source: <https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/> · Shift: <https://shift.kai-nex.com/event/evt-0b7b7b92614dd003/>
-- **Google Cloud Model Garden 上架 OpenAI 模型：自称成唯一同时提供 Gemini、Claude 与 OpenAI 的超大规模云**  
-  Google Cloud 发文称在 Model Garden 为精选企业客户以私有预览提供 GPT-6 Astra、GPT-6.1 Sol 与 GPT-6 Luna，经 Marketplace 计入单一 GCP 账单并可抵扣既有云承诺；公司…  
-  原始来源 Source: <https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers> · Shift: <https://shift.kai-nex.com/event/evt-a9e2a16ca75523c2/>
-- **Decoder：OpenAI GPT-5.6 Sol 与 Gemini 4 Argon 发现影响海量网站的关键 PHP 漏洞**  
-  THE DECODER 报道称，OpenAI 的 GPT-5.6 Sol 在 Patch the Planet 行动中发现被称为近年来影响最大的安全问题之一的关键 PHP 漏洞；安全公司 Wiz 借助自有平台与 Google Gemini…  
-  原始来源 Source: <https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/> · Shift: <https://shift.kai-nex.com/event/evt-71156345cb509129/>
 
-[查看本周全部 26 条 See all →](weekly/2026-W43.md)
+[查看本周全部 29 条 See all →](weekly/2026-W43.md)
 <!-- THIS_WEEK:END -->
 
 <!-- ARCHIVE:START -->
 ## 归档 Archive
-- [2026-W43](weekly/2026-W43.md) · 26 条
+- [2026-W43](weekly/2026-W43.md) · 29 条
 - [2026-W42](weekly/2026-W42.md) · 32 条
-- [2026-W41](weekly/2026-W41.md) · 39 条
+- [2026-W41](weekly/2026-W41.md) · 40 条
 - [2026-W40](weekly/2026-W40.md) · 54 条
 - [2026-W39](weekly/2026-W39.md) · 6 条
 - [2026-W38](weekly/2026-W38.md) · 2 条
