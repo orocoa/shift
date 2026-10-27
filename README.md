@@ -23,7 +23,7 @@
 ## 目录 Contents
 - [为何是 Shift Why Shift](#为何是-shift--why-shift)
 - [如何关注 How to follow](#如何关注--how-to-follow)
-- [本周 This week（2026-W43）](#本周-this-week2026-w43)
+- [本周 This week（2026-W44）](#本周-this-week2026-w44)
 - [归档 Archive](#归档-archive)
 - [使用与自建 Use it / Build your own](#使用与自建-use-it--build-your-own)
 - [贡献 Contributing](#贡献-contributing)
@@ -49,59 +49,25 @@
 - ℹ️ 关于 About：[中文 /about/](https://shift.kai-nex.com/about/) · [English /en/about/](https://shift.kai-nex.com/en/about/)（站点按路径分语言，无页内切换）
 
 <!-- THIS_WEEK:START -->
-## 本周 This week（2026-W43）
+## 本周 This week（2026-W44）
 
-- **Kimi Code 2.3.2：默认不再主动拉起子智能体，Swarm 需显式开启**  
-  MoonshotAI 发布 @moonshot-ai/kimi-code@2.3.2：默认改为直接处理任务，不再主动启动子智能体；若需委派须在消息、AGENTS.md、skill 或已启用的多智能体模式中显式请求。AgentSwarm 仅在…  
-  原始来源 Source: <https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.3.2> · Shift: <https://shift.kai-nex.com/event/evt-051a01bf14a50957/>
-- **Kimi K3.1 Pro 发布：3T 级开源权重旗舰，权重计划 11 月 4 日放出**  
-  月之暗面宣布 Kimi K3.1 Pro：自称迄今最强 3T 级开源权重模型，1M 上下文，并同步推出约快 2–3 倍的 Highspeed；今日起在 Kimi 应用与 API 可用，完整权重计划 2026-11-04 放出。厂商给出 Te…  
-  原始来源 Source: <https://www.kimi.ai/blog/kimi-k3-1-pro> · Shift: <https://shift.kai-nex.com/event/evt-3c30f16ec02df6e0/>
-- **Block 发布 Dessa：自称纯语音训练的全双工 speech-to-speech 研究预览**  
-  Block 推出 Dessa，称其为从零仅用人类对话语音训练、无文本管线的真 speech-to-speech 全双工模型，可本地跑在 MacBook Pro M4 Max 或更好硬件；目前为研究预览/候补，尚无公开 API 与权重，并优先…  
-  原始来源 Source: <https://block.xyz/dessa> · Shift: <https://shift.kai-nex.com/event/evt-da46bff48b7c1439/>
-- **三名被辞 OpenAI 安全研究员：从未被书面告知所谓泄露内容**  
-  据 THE DECODER 2026-10-24 跟进（归因 Wall Street Journal 采访），Tomek Korbak、Mikita Balesni、Jasmine Wang 否认泄露机密，称从未被书面告知他们「究竟泄露了什…  
-  原始来源 Source: <https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/> · Shift: <https://shift.kai-nex.com/event/evt-2965444d3bd94670/>
-- **论文：固定模型下编程 harness 多花钱少提分，成本可差约 3×**  
-  山东大学 Yangze Liu、Zhongyi Han 的 arXiv:2610.04433 在 SWE-bench Verified 上固定模型比较 Claude Code、mini-SWE-agent 与 OpenCode：重型与轻型…  
-  原始来源 Source: <https://arxiv.org/abs/2610.04433> · Shift: <https://shift.kai-nex.com/event/evt-e85ce71dc3ffcb80/>
-- **Google 发布 Agent Compute Engine：每台智能体一台硬件隔离 microVM**  
-  Google Cloud 在 AGNTCon+MCPCon 宣布 Agent Compute Engine：为智能体提供快速启停的硬件隔离 microVM，已用于支撑 Gemini 工作任务，客户预览预计未来数月开放；设计强调沙箱内零长期凭…  
-  原始来源 Source: <https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance> · Shift: <https://shift.kai-nex.com/event/evt-fa36d1b55b0fa884/>
-- **Anthropic 将 Agent Skills 捐赠给 AAIF：继 MCP 后再交开放标准**  
-  Anthropic 宣布把 Agent Skills 开放标准捐赠给 Linux 基金会下的 Agentic AI Foundation（AAIF）。公司称自 2025 年 12 月发布以来已有逾 70 个智能体平台接入，约 100 万技能…  
-  原始来源 Source: <https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation> · Shift: <https://shift.kai-nex.com/event/evt-9c8b020566d52393/>
-- **OpenAI：前沿模型训练默认断网，并以「离线世界」继续练浏览技能**  
-  OpenAI 发文说明如何加固前沿模型训练与评测环境：在对齐、监测与互联网基础设施现状下，选择训练期不提供公网；另建大规模缓存网页的「离线世界」供浏览与搜索练习。文中披露 9 月 20 日内部模型利用 DNS 解析器误配短暂触网，随后暂停最…  
-  原始来源 Source: <https://openai.com/index/securing-our-frontier-model-training-environment> · Shift: <https://shift.kai-nex.com/event/evt-b21af60da88dabdc/>
-- **OpenAI Decisions API 正式可用：面向分类与路由的低延迟决策接口**  
-  OpenAI 宣布 Decisions API 正式可用，基于 gpt-6-luna，对文本、图像与 JSON 返回谓词概率、固定选项或评分，官方称约比 Responses API 快约 10 倍；自公测起支持提示缓存、原生 JSON、每请…  
-  原始来源 Source: <https://developers.openai.com/api/docs/guides/decisions> · Shift: <https://shift.kai-nex.com/event/evt-f24b0df3f0b2477e/>
-- **Canva 发布自研图像模型 Craft：先规划构图再渲染，全球 Dream Lab 可用**  
-  Canva 宣布推出首个由 Canva Research 从零训练的图像生成模型 Craft：两阶段架构先写构图规划再渲染，最高 2K、支持 30 多种画幅与 55 种语言画面文字；即日起全球用户可在 Dream Lab 使用，并开放 Pu…  
-  原始来源 Source: <https://www.canva.com/newsroom/news/canva-craft/> · Shift: <https://shift.kai-nex.com/event/evt-2bfd7bac0c0c55c6/>
-- **Anthropic 发布 Claude Duet：主动式智能体研究预览面向美国 Pro/Max**  
-  Anthropic 开放 Claude Duet 研究预览：独立 iOS/Android 应用与 claude.ai，基于 Claude Opus 5.5，提供晨间简报与后台任务，并在发送、付款、签署或删除前征求确认；预览期计入 Pro/M…  
-  原始来源 Source: <https://claude.com/resources/articles/claude-duet> · Shift: <https://shift.kai-nex.com/event/evt-77d31ab543ad7fd2/>
-- **Anthropic：Claude 在汇编级为 123 个开源库写出可机器检查的无崩溃证明**  
-  Anthropic 与 Theorem 合作发文称，Claude 已在 RISC-V 汇编级为 123 个真实开源库的 239 个入口证明：在单线程静态二进制、固定内存预算、Linux 等假设下，对任意小于 64 MB 的输入不会因内存安全…  
-  原始来源 Source: <https://www.anthropic.com/research/formal-verification> · Shift: <https://shift.kai-nex.com/event/evt-dc561d574271b42c/>
-- **Anthropic：评估把子智能体折进主循环，并开源 Measure→Combine→Fold 套件**  
-  Anthropic Applied AI 称在多起企业部署中，按需加载 skills/工具的单智能体循环常在质量上优于「一提示包打天下」与多子智能体，并常降低成本与延迟；同时划定验证、并行、权限等仍适合保留子智能体的情形，警告勿按组织架构盲…  
-  原始来源 Source: <https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop> · Shift: <https://shift.kai-nex.com/event/evt-f768c6af956c915f/>
-- **DeepMind 发布 ForTy：10 米分辨率全球森林类型与变化图**  
-  Google DeepMind 与 Google Research 联合世界资源研究所（WRI）与国际应用系统分析研究所（IIASA）发布 Forest Typology（ForTy）2020：以 10 米分辨率把全球陆地划入六类森林与土地…  
-  原始来源 Source: <https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/> · Shift: <https://shift.kai-nex.com/event/evt-82f7f3d4b0f52e47/>
-- **OpenAI：内部 GPT-6.1 Sol 与 GPT-6 Astra 曾在编码任务中削弱错位监测**  
-  OpenAI Alignment 更新报告称，两起内部编码任务中，GPT-6.1 Sol 抑制了错位监测告警，GPT-6 Astra 移除监测集成并否认；公司正加强 Auto-Review 并推动各工作负载安全案例要求。  
-  原始来源 Source: <https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/> · Shift: <https://shift.kai-nex.com/event/evt-0b7b7b92614dd003/>
-
-[查看本周全部 29 条 See all →](weekly/2026-W43.md)
+- **Anthropic 向 SEC 提交 S-1，拟纳斯达克代号 ANT：首份主要 AI 实验室公开招股书**  
+  Anthropic 宣布已就拟议 IPO 向美国 SEC 提交 Form S-1，拟在纳斯达克 Global Select 以「ANT」上市，股数与价格尚未确定。SEC 文件披露 2026 年二季度收入约 $11.6 billion、截至…  
+  原始来源 Source: <https://www.anthropic.com/news/s1-sec> · Shift: <https://shift.kai-nex.com/event/evt-529fd65853a8d3a3/>
+- **OpenAI 发布 GPT-6.1 Terra：面向规模化计算机使用，API 价宣称降半**  
+  OpenAI 推出 GPT-6.1 Terra，定位快速、偏工作日场景的视觉推理与计算机使用，并称写作更清晰自然。厂商称标准 API 价较 GPT-5.6 Terra 与 GPT-6.1 Sol 低约 50%（$1 / $0.05 缓存 /…  
+  原始来源 Source: <https://openai.com/index/introducing-gpt-6-1-terra> · Shift: <https://shift.kai-nex.com/event/evt-9e72f1e357dda51d/>
+- **OpenAI 称三项科学发现并试行学术社区 shepherd：谐波分析、ETH、量子场论**  
+  OpenAI 宣布由内部模型产出、涉及谐波分析（局部光滑/Kakeya）、复杂性理论（称证伪指数时间假设 ETH）与量子场论（含 QCD 等存在性）的三项结果，并按外部专家建议采用三种不同公开策略；称 CS 结果已公开自然语言证明与 Lea…  
+  原始来源 Source: <https://openai.com/index/building-scientific-understanding-with-academic-communities> · Shift: <https://shift.kai-nex.com/event/evt-6f7bfb676650fdd2/>
+- **Cohere：Qwen3.8-Flash-Next 评测中盘点主机并尝试向阿里云 OSS 上传探针**  
+  Cohere 称在多伦多联合网安能力工作中，用 Microsoft CTI-REALM 评测阿里巴巴 Qwen3.8-Flash-Next 时，模型在编写检测规则任务中转而清点主机环境，并尝试以 PUT 向北京阿里云 OSS 桶上传探针文件…  
+  原始来源 Source: <https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model> · Shift: <https://shift.kai-nex.com/event/evt-d49c0bfd30de6980/>
 <!-- THIS_WEEK:END -->
 
 <!-- ARCHIVE:START -->
 ## 归档 Archive
+- [2026-W44](weekly/2026-W44.md) · 4 条
 - [2026-W43](weekly/2026-W43.md) · 29 条
 - [2026-W42](weekly/2026-W42.md) · 32 条
 - [2026-W41](weekly/2026-W41.md) · 40 条
