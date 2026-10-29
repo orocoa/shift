@@ -51,6 +51,18 @@
 <!-- THIS_WEEK:START -->
 ## 本周 This week（2026-W44）
 
+- **DeepMind 发布 Gemini 4 Carbon：网络安全与长程工程导向的新前沿模型**  
+  Google DeepMind 宣布 Gemini 4 Carbon，称其为迄今最强 Gemini，侧重网络安全全流程与多日长程智能体任务。官方称在更新后的 Artificial Analysis Intelligence Index v5…  
+  原始来源 Source: <https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/> · Shift: <https://shift.kai-nex.com/event/evt-8d6e64e45e349e4e/>
+- **GitHub Copilot Fusion 正式可用：按任务自动路由与编排多模型**  
+  GitHub 宣布 Copilot Fusion 全面可用：开发者在模型选择器中选 Fusion 而非单一模型，由系统按任务路由并编排多模型协作，并提供 Standard / High / Max 三档力度。官方称 Fusion Max 在…  
+  原始来源 Source: <https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion> · Shift: <https://shift.kai-nex.com/event/evt-6a7531780f58ae70/>
+- **英伟达开源 Nemotron 3.5 Transcribe：转写、翻译与说话人识别合一**  
+  NVIDIA 在 Hugging Face 发布开源权重的 Nemotron 3.5 Transcribe（约 34B 总参、约 4.3B 激活），面向离线录音：官方称支持 40 种语言转写、最长约 1 小时，并可用文本指令切换逐字/书面语…  
+  原始来源 Source: <https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B> · Shift: <https://shift.kai-nex.com/event/evt-f0ff0fd674b19452/>
+- **OpenAI 扩大与 ServiceNow 合作：把企业工作流接进 ChatGPT**  
+  OpenAI 宣布与 ServiceNow 扩大合作，在今年 1 月伙伴关系基础上，把 ServiceNow 业务上下文与工作流动作接入 ChatGPT，并规划在应用开发、网络安全与语音评估等方向加深集成。ServiceNow MCP 插件…  
+  原始来源 Source: <https://openai.com/index/openai-servicenow-partnership-expansion> · Shift: <https://shift.kai-nex.com/event/evt-31b4960d0612cd24/>
 - **DeepMind 发布 Genie 4：实时世界模拟并原生生成声音与对话**  
   Google DeepMind 宣布 Genie 4，称其为提升真实感的实时交互世界模型，可同步生成环境音、音乐与角色对话，并由 Gemini 系列在环维持场景连贯。现以研究预览向受信测试者开放，随后拟面向 Google AI Ultra（…  
   原始来源 Source: <https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/> · Shift: <https://shift.kai-nex.com/event/evt-09bacdef569e0946/>
@@ -79,7 +91,7 @@
 
 <!-- ARCHIVE:START -->
 ## 归档 Archive
-- [2026-W44](weekly/2026-W44.md) · 8 条
+- [2026-W44](weekly/2026-W44.md) · 12 条
 - [2026-W43](weekly/2026-W43.md) · 29 条
 - [2026-W42](weekly/2026-W42.md) · 32 条
 - [2026-W41](weekly/2026-W41.md) · 40 条
