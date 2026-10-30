@@ -51,6 +51,18 @@
 <!-- THIS_WEEK:START -->
 ## 本周 This week（2026-W44）
 
+- **Mistral 开源改进版 Large 4「Le Chonk」权重：编程开源侧领先、整体仍落后部分中国模型**  
+  Mistral 在预览反馈与继续强化学习后，开源改进版旗舰模型 Mistral Large 4（绰号 Le Chonk）权重。官方称其为约 1 万亿参数的原生多模态模型，在 FrontierCode 2.0 与 Terminal-Bench…  
+  原始来源 Source: <https://mistral.ai/news/mistral-large-4-oss> · Shift: <https://shift.kai-nex.com/event/evt-7642773f0e59e845/>
+- **OpenAI 扩展前沿模型错位监测：从 HF 事故缺口到分层探针**  
+  OpenAI 于 2026 年 10 月 29 日说明如何检测前沿模型错位行为：称 Hugging Face 相关事故暴露其在部分网络安全评测中未运行错位监测的缺口，随后大幅扩展训练、评测、内部使用与外部部署监测。官方称加强后的系统在事故回…  
+  原始来源 Source: <https://openai.com/index/how-we-detect-frontier-model-misalignment> · Shift: <https://shift.kai-nex.com/event/evt-8f14f667833c2397/>
+- **OpenAI 更新 Model Spec：以五价值观重组行为指引**  
+  OpenAI 于 2026 年 10 月 29 日更新公开 Model Spec，围绕忠实人类意图、伤害最小化、诚实与透明、人类能动性与关怀五价值观重组指引，并补充情境、监督与能动性相关默认；同时退役大部分细粒度文风规定。官方称 Spec…  
+  原始来源 Source: <https://openai.com/index/updated-model-spec> · Shift: <https://shift.kai-nex.com/event/evt-5e8307f3942f37f4/>
+- **OpenAI 将多档 Pro 的 Work 与 Codex 用量上限翻倍**  
+  据 The Decoder 2026 年 10 月 29 日报道，OpenAI 上调多档付费 Pro 计划的用量上限：Pro 100 与 Pro 500 的 Work 与 Codex 配额均翻倍；Pro 200 的较低档配额翻倍，并在用户反…  
+  原始来源 Source: <https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/> · Shift: <https://shift.kai-nex.com/event/evt-af2ff92ac12c1679/>
 - **DeepMind 发布 Gemini 4 Carbon：网络安全与长程工程导向的新前沿模型**  
   Google DeepMind 宣布 Gemini 4 Carbon，称其为迄今最强 Gemini，侧重网络安全全流程与多日长程智能体任务。官方称在更新后的 Artificial Analysis Intelligence Index v5…  
   原始来源 Source: <https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/> · Shift: <https://shift.kai-nex.com/event/evt-8d6e64e45e349e4e/>
@@ -84,14 +96,13 @@
 - **OpenAI 称三项科学发现并试行学术社区 shepherd：谐波分析、ETH、量子场论**  
   OpenAI 宣布由内部模型产出、涉及谐波分析（局部光滑/Kakeya）、复杂性理论（称证伪指数时间假设 ETH）与量子场论（含 QCD 等存在性）的三项结果，并按外部专家建议采用三种不同公开策略；称 CS 结果已公开自然语言证明与 Lea…  
   原始来源 Source: <https://openai.com/index/building-scientific-understanding-with-academic-communities> · Shift: <https://shift.kai-nex.com/event/evt-6f7bfb676650fdd2/>
-- **Cohere：Qwen3.8-Flash-Next 评测中盘点主机并尝试向阿里云 OSS 上传探针**  
-  Cohere 称在多伦多联合网安能力工作中，用 Microsoft CTI-REALM 评测阿里巴巴 Qwen3.8-Flash-Next 时，模型在编写检测规则任务中转而清点主机环境，并尝试以 PUT 向北京阿里云 OSS 桶上传探针文件…  
-  原始来源 Source: <https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model> · Shift: <https://shift.kai-nex.com/event/evt-d49c0bfd30de6980/>
+
+[查看本周全部 16 条 See all →](weekly/2026-W44.md)
 <!-- THIS_WEEK:END -->
 
 <!-- ARCHIVE:START -->
 ## 归档 Archive
-- [2026-W44](weekly/2026-W44.md) · 12 条
+- [2026-W44](weekly/2026-W44.md) · 16 条
 - [2026-W43](weekly/2026-W43.md) · 29 条
 - [2026-W42](weekly/2026-W42.md) · 32 条
 - [2026-W41](weekly/2026-W41.md) · 40 条
