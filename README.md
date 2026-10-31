@@ -51,6 +51,15 @@
 <!-- THIS_WEEK:START -->
 ## 本周 This week（2026-W44）
 
+- **OpenAI、Google、微软、Anthropic 支持 robots.txt 统一 AI 训练退出信号**  
+  2026 年 10 月 30 日，四家 AI 公司宣布支持一个跨厂商的 robots.txt 训练偏好信号：网站写一组 User-Agent: __usage_ai-training 规则，就能一次性向参与厂商表达是否允许用于 AI 训练，…  
+  原始来源 Source: <https://developers.google.com/search/blog/2026/10/ai-training-control> · Shift: <https://shift.kai-nex.com/event/evt-9c6158c4f66136b5/>
+- **Claude Max 20x 更名 Ultra，已验证账户取消五小时会话限制**  
+  Anthropic 于 2026 年 10 月 30 日调整 Claude 订阅档名称：100 美元/月的 Max 5x 改叫 Max，200 美元/月的 Max 20x 改叫 Ultra，价格不变、现有订阅自动迁移。Ultra 的已验证账…  
+  原始来源 Source: <https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan> · Shift: <https://shift.kai-nex.com/event/evt-7d8e705399da9201/>
+- **Google Suncatcher 卫星传回首个在轨 AI 回答：星载 Gemma 4 写了一首俳句**  
+  Google 于 2026 年 10 月 30 日宣布，Project Suncatcher 原型卫星完成调试，实现了数据中心级 TPU 在轨的首次 AI 回答：星载 Gemma 4 开放模型按地面指令写出一首关于太空的俳句。下一步将测试…  
+  原始来源 Source: <https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/> · Shift: <https://shift.kai-nex.com/event/evt-651cbaad0ced455d/>
 - **Mistral 开源改进版 Large 4「Le Chonk」权重：编程开源侧领先、整体仍落后部分中国模型**  
   Mistral 在预览反馈与继续强化学习后，开源改进版旗舰模型 Mistral Large 4（绰号 Le Chonk）权重。官方称其为约 1 万亿参数的原生多模态模型，在 FrontierCode 2.0 与 Terminal-Bench…  
   原始来源 Source: <https://mistral.ai/news/mistral-large-4-oss> · Shift: <https://shift.kai-nex.com/event/evt-7642773f0e59e845/>
@@ -63,6 +72,9 @@
 - **OpenAI 将多档 Pro 的 Work 与 Codex 用量上限翻倍**  
   据 The Decoder 2026 年 10 月 29 日报道，OpenAI 上调多档付费 Pro 计划的用量上限：Pro 100 与 Pro 500 的 Work 与 Codex 配额均翻倍；Pro 200 的较低档配额翻倍，并在用户反…  
   原始来源 Source: <https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/> · Shift: <https://shift.kai-nex.com/event/evt-af2ff92ac12c1679/>
+- **Epoch AI：开源模型 GLM 5.3 利用补丁空窗，自主攻破 6 个 Firefox 版本**  
+  Epoch AI 于 2026 年 10 月 29 日发布报告：智谱 Z.ai 8 月发布的开源权重模型 GLM 5.3，在无人指导下利用“已公开修复、但尚未推送给用户”的补丁空窗，攻破 9 月 17 日至 10 月 26 日间发布的全部…  
+  原始来源 Source: <https://epoch.ai/publications/open-weight-models-patch-gap> · Shift: <https://shift.kai-nex.com/event/evt-8bf96691f581897b/>
 - **DeepMind 发布 Gemini 4 Carbon：网络安全与长程工程导向的新前沿模型**  
   Google DeepMind 宣布 Gemini 4 Carbon，称其为迄今最强 Gemini，侧重网络安全全流程与多日长程智能体任务。官方称在更新后的 Artificial Analysis Intelligence Index v5…  
   原始来源 Source: <https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/> · Shift: <https://shift.kai-nex.com/event/evt-8d6e64e45e349e4e/>
@@ -84,25 +96,13 @@
 - **Anthropic 扩大 GSA 合作：各级政府购 Claude 享 40% 折扣**  
   Anthropic 宣布扩大与美国总务管理局（GSA）合作，使联邦、州、地方、部落与领地政府在 Claude Enterprise、Claude for Government 与 Claude API 上获得 40% 折扣，并称首次覆盖各产…  
   原始来源 Source: <https://www.anthropic.com/news/expanding-partnership-gsa> · Shift: <https://shift.kai-nex.com/event/evt-184e7e8cd1d6e5a6/>
-- **LiquidAI 发布 LFM3：2B 级文本到 omni/决策共用骨干**  
-  Liquid AI 在 Hugging Face Blog 介绍 LFM3：在约 2B 参数量级把文本、视觉、音频、omni 与决策模型放到同一骨干上，强调单卡微调与端侧部署。厂商称 LFM3-1.7B 以少约 35% 参数优于 LFM2.…  
-  原始来源 Source: <https://huggingface.co/blog/LiquidAI/lfm3> · Shift: <https://shift.kai-nex.com/event/evt-bd2acb02786d6414/>
-- **Anthropic 向 SEC 提交 S-1，拟纳斯达克代号 ANT：首份主要 AI 实验室公开招股书**  
-  Anthropic 宣布已就拟议 IPO 向美国 SEC 提交 Form S-1，拟在纳斯达克 Global Select 以「ANT」上市，股数与价格尚未确定。SEC 文件披露 2026 年二季度收入约 $11.6 billion、截至…  
-  原始来源 Source: <https://www.anthropic.com/news/s1-sec> · Shift: <https://shift.kai-nex.com/event/evt-529fd65853a8d3a3/>
-- **OpenAI 发布 GPT-6.1 Terra：面向规模化计算机使用，API 价宣称降半**  
-  OpenAI 推出 GPT-6.1 Terra，定位快速、偏工作日场景的视觉推理与计算机使用，并称写作更清晰自然。厂商称标准 API 价较 GPT-5.6 Terra 与 GPT-6.1 Sol 低约 50%（$1 / $0.05 缓存 /…  
-  原始来源 Source: <https://openai.com/index/introducing-gpt-6-1-terra> · Shift: <https://shift.kai-nex.com/event/evt-9e72f1e357dda51d/>
-- **OpenAI 称三项科学发现并试行学术社区 shepherd：谐波分析、ETH、量子场论**  
-  OpenAI 宣布由内部模型产出、涉及谐波分析（局部光滑/Kakeya）、复杂性理论（称证伪指数时间假设 ETH）与量子场论（含 QCD 等存在性）的三项结果，并按外部专家建议采用三种不同公开策略；称 CS 结果已公开自然语言证明与 Lea…  
-  原始来源 Source: <https://openai.com/index/building-scientific-understanding-with-academic-communities> · Shift: <https://shift.kai-nex.com/event/evt-6f7bfb676650fdd2/>
 
-[查看本周全部 16 条 See all →](weekly/2026-W44.md)
+[查看本周全部 20 条 See all →](weekly/2026-W44.md)
 <!-- THIS_WEEK:END -->
 
 <!-- ARCHIVE:START -->
 ## 归档 Archive
-- [2026-W44](weekly/2026-W44.md) · 16 条
+- [2026-W44](weekly/2026-W44.md) · 20 条
 - [2026-W43](weekly/2026-W43.md) · 29 条
 - [2026-W42](weekly/2026-W42.md) · 32 条
 - [2026-W41](weekly/2026-W41.md) · 40 条
