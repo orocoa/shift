@@ -51,6 +51,12 @@
 <!-- THIS_WEEK:START -->
 ## 本周 This week（2026-W44）
 
+- **DeepSeek 公开 Super-agent 架构并开源原型：常驻 Router 调度多个并行 Worker**  
+  DeepSeek Harness 团队于 2026 年 10 月 31 日发布《Super-agent 设计探索》，提出让编程智能体脱离单一会话、常驻在线并行推进多项工作的架构：Router 层统一对接人和分派任务，Worker 层在隔离会…  
+  原始来源 Source: <https://github.com/deepseek-ai/dsh-superagent-prototype> · Shift: <https://shift.kai-nex.com/event/evt-cba0961d50a52122/>
+- **Anthropic 给四款旧 Claude 模型补加文本水印，Opus 4.6 与 Sonnet 4.6 改采样参数即失效**  
+  据 The Decoder 2026 年 10 月 31 日报道，Anthropic 在给 API 客户的邮件中表示，将为 Claude Mythos 5、Opus 4.7、Opus 4.6 和 Sonnet 4.6 加上文本水印，以赶上欧…  
+  原始来源 Source: <https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/> · Shift: <https://shift.kai-nex.com/event/evt-5e540095393d705c/>
 - **OpenAI、Google、微软、Anthropic 支持 robots.txt 统一 AI 训练退出信号**  
   2026 年 10 月 30 日，四家 AI 公司宣布支持一个跨厂商的 robots.txt 训练偏好信号：网站写一组 User-Agent: __usage_ai-training 规则，就能一次性向参与厂商表达是否允许用于 AI 训练，…  
   原始来源 Source: <https://developers.google.com/search/blog/2026/10/ai-training-control> · Shift: <https://shift.kai-nex.com/event/evt-9c6158c4f66136b5/>
@@ -90,19 +96,13 @@
 - **DeepMind 发布 Genie 4：实时世界模拟并原生生成声音与对话**  
   Google DeepMind 宣布 Genie 4，称其为提升真实感的实时交互世界模型，可同步生成环境音、音乐与角色对话，并由 Gemini 系列在环维持场景连贯。现以研究预览向受信测试者开放，随后拟面向 Google AI Ultra（…  
   原始来源 Source: <https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/> · Shift: <https://shift.kai-nex.com/event/evt-09bacdef569e0946/>
-- **OpenAI 扩大与 Oracle 合作：把 Oracle 应用带进 ChatGPT**  
-  OpenAI 宣布扩大与 Oracle 合作，称将把 Oracle 应用与数据接入 ChatGPT，并由 OpenAI 模型支撑 Oracle 新产品。要点包括开发中的 Oracle AI Workspace、AI Security Mes…  
-  原始来源 Source: <https://openai.com/index/oracle-apps-in-chatgpt> · Shift: <https://shift.kai-nex.com/event/evt-c3142e33a2bf6a10/>
-- **Anthropic 扩大 GSA 合作：各级政府购 Claude 享 40% 折扣**  
-  Anthropic 宣布扩大与美国总务管理局（GSA）合作，使联邦、州、地方、部落与领地政府在 Claude Enterprise、Claude for Government 与 Claude API 上获得 40% 折扣，并称首次覆盖各产…  
-  原始来源 Source: <https://www.anthropic.com/news/expanding-partnership-gsa> · Shift: <https://shift.kai-nex.com/event/evt-184e7e8cd1d6e5a6/>
 
-[查看本周全部 20 条 See all →](weekly/2026-W44.md)
+[查看本周全部 22 条 See all →](weekly/2026-W44.md)
 <!-- THIS_WEEK:END -->
 
 <!-- ARCHIVE:START -->
 ## 归档 Archive
-- [2026-W44](weekly/2026-W44.md) · 20 条
+- [2026-W44](weekly/2026-W44.md) · 22 条
 - [2026-W43](weekly/2026-W43.md) · 29 条
 - [2026-W42](weekly/2026-W42.md) · 32 条
 - [2026-W41](weekly/2026-W41.md) · 40 条
