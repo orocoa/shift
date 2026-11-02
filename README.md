@@ -51,6 +51,15 @@
 <!-- THIS_WEEK:START -->
 ## 本周 This week（2026-W44）
 
+- **Aramco 完成入股 HUMAIN：取得 49% 股权，2026 年投入约 26 亿美元现金**  
+  沙特公共投资基金（PIF）与沙特阿美（Aramco）于 2026 年 11 月 1 日宣布完成 HUMAIN 交易：Aramco 通过全资子公司取得这家沙特 AI 公司 49% 的股权，PIF 保留 51%。Aramco 除转入自有 AI…  
+  原始来源 Source: <https://www.aramco.com/en/news-media/news/2026/pif-and-aramco-close-humain-transaction-to-accelerate-humains-global-growth> · Shift: <https://shift.kai-nex.com/event/evt-64c67f684ecd28f4/>
+- **ChatGPT 将合并 Chat 与 Work：12 月起 ChatGPT 和 Codex 共用 Token 额度，付费账户按设备与支付卡限量**  
+  据 The Decoder 11 月 1 日引述 OpenAI 更新的帮助中心页面，ChatGPT 正把 Chat 与 Work 两种模式并到同一界面；从 12 月起，Plus、Pro 和 Business 套餐在 ChatGPT 与 Co…  
+  原始来源 Source: <https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/> · Shift: <https://shift.kai-nex.com/event/evt-146790c19d15ac71/>
+- **Axios：OpenAI 中期选举后将推动 AI「限速」相关提案，并把数据中心改称「AI 计算园区」**  
+  据 Axios 11 月 1 日独家报道（经 Silicon Report 转述），OpenAI 计划在美国周二中期选举后发起一轮政策和公关攻势：提案包括推动制定 AI「限速」、鼓励美国参与制定全球标准、展示 AI 如何赋能日常生活，以及把…  
+  原始来源 Source: <https://www.siliconreport.com/openai-plans-post-midterm-push-for-ai-speed-limits-axios-reports> · Shift: <https://shift.kai-nex.com/event/evt-892cb64d23d3640c/>
 - **DeepSeek 公开 Super-agent 架构并开源原型：常驻 Router 调度多个并行 Worker**  
   DeepSeek Harness 团队于 2026 年 10 月 31 日发布《Super-agent 设计探索》，提出让编程智能体脱离单一会话、常驻在线并行推进多项工作的架构：Router 层统一对接人和分派任务，Worker 层在隔离会…  
   原始来源 Source: <https://github.com/deepseek-ai/dsh-superagent-prototype> · Shift: <https://shift.kai-nex.com/event/evt-cba0961d50a52122/>
@@ -87,22 +96,13 @@
 - **GitHub Copilot Fusion 正式可用：按任务自动路由与编排多模型**  
   GitHub 宣布 Copilot Fusion 全面可用：开发者在模型选择器中选 Fusion 而非单一模型，由系统按任务路由并编排多模型协作，并提供 Standard / High / Max 三档力度。官方称 Fusion Max 在…  
   原始来源 Source: <https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion> · Shift: <https://shift.kai-nex.com/event/evt-6a7531780f58ae70/>
-- **英伟达开源 Nemotron 3.5 Transcribe：转写、翻译与说话人识别合一**  
-  NVIDIA 在 Hugging Face 发布开源权重的 Nemotron 3.5 Transcribe（约 34B 总参、约 4.3B 激活），面向离线录音：官方称支持 40 种语言转写、最长约 1 小时，并可用文本指令切换逐字/书面语…  
-  原始来源 Source: <https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B> · Shift: <https://shift.kai-nex.com/event/evt-f0ff0fd674b19452/>
-- **OpenAI 扩大与 ServiceNow 合作：把企业工作流接进 ChatGPT**  
-  OpenAI 宣布与 ServiceNow 扩大合作，在今年 1 月伙伴关系基础上，把 ServiceNow 业务上下文与工作流动作接入 ChatGPT，并规划在应用开发、网络安全与语音评估等方向加深集成。ServiceNow MCP 插件…  
-  原始来源 Source: <https://openai.com/index/openai-servicenow-partnership-expansion> · Shift: <https://shift.kai-nex.com/event/evt-31b4960d0612cd24/>
-- **DeepMind 发布 Genie 4：实时世界模拟并原生生成声音与对话**  
-  Google DeepMind 宣布 Genie 4，称其为提升真实感的实时交互世界模型，可同步生成环境音、音乐与角色对话，并由 Gemini 系列在环维持场景连贯。现以研究预览向受信测试者开放，随后拟面向 Google AI Ultra（…  
-  原始来源 Source: <https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/> · Shift: <https://shift.kai-nex.com/event/evt-09bacdef569e0946/>
 
-[查看本周全部 22 条 See all →](weekly/2026-W44.md)
+[查看本周全部 25 条 See all →](weekly/2026-W44.md)
 <!-- THIS_WEEK:END -->
 
 <!-- ARCHIVE:START -->
 ## 归档 Archive
-- [2026-W44](weekly/2026-W44.md) · 22 条
+- [2026-W44](weekly/2026-W44.md) · 25 条
 - [2026-W43](weekly/2026-W43.md) · 29 条
 - [2026-W42](weekly/2026-W42.md) · 32 条
 - [2026-W41](weekly/2026-W41.md) · 40 条
