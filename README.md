@@ -51,6 +51,15 @@
 <!-- THIS_WEEK:START -->
 ## 本周 This week（2026-W45）
 
+- **OpenAI：GPT-6 Astra 不到一周从零设计出一台硬件设备，未公开内部模型 CAD 基准成绩大幅领先**  
+  OpenAI 11 月 3 日发文介绍 ChatGPT 和 Codex 在 CAD、PCB 设计和仿真等实体工程中的使用。据 The Decoder 转述，OpenAI 硬件团队用 GPT-6 Astra 在不到一周内设计出一台可与 Cod…  
+  原始来源 Source: <https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/> · Shift: <https://shift.kai-nex.com/event/evt-da5ea8e479c06775/>
+- **Anthropic 推出 Message Threads 公测：长对话 Agent 每轮只发增量，首 token 延迟降约 35%**  
+  Anthropic 在 Claude Platform 上线 Message Threads 公测。过去 Messages API 每次请求都要重发完整对话历史；开启线程后，Agent 只需发送上一轮之后的新消息。Anthropic 称，多…  
+  原始来源 Source: <https://claude.com/resources/articles/message-threads> · Shift: <https://shift.kai-nex.com/event/evt-697a999f1ade6db2/>
+- **Revolut 把自托管 GLM 设为默认 AI 编程模型，称推理成本降约九成，替代 Claude Code 等商用工具**  
+  据 The Register 11 月 3 日报道，英国金融科技公司 Revolut 运维与基础设施负责人 David Abitbol 在上月纽约 AI Engineer 大会上表示，公司在不到一年内把自托管的智谱 GLM 模型设为 AI…  
+  原始来源 Source: <https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345> · Shift: <https://shift.kai-nex.com/event/evt-149329eb526a0dac/>
 - **Anthropic 提交招股书修订稿：前三季度营收 332 亿美元，并称未来模型可能“很快”触及 AI 加速研发门槛**  
   Anthropic 于 11 月 2 日向美国 SEC 提交 S-1 第一号修订稿，补入截至 9 月 30 日的财务：前九个月营收 332.4 亿美元，第三季度营收 169.6 亿美元、净亏损 232.9 亿美元，亏损主要来自可转债等金融工…  
   原始来源 Source: <https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm> · Shift: <https://shift.kai-nex.com/event/evt-c6d2cbc0bf820046/>
@@ -67,7 +76,7 @@
 
 <!-- ARCHIVE:START -->
 ## 归档 Archive
-- [2026-W45](weekly/2026-W45.md) · 4 条
+- [2026-W45](weekly/2026-W45.md) · 7 条
 - [2026-W44](weekly/2026-W44.md) · 25 条
 - [2026-W43](weekly/2026-W43.md) · 29 条
 - [2026-W42](weekly/2026-W42.md) · 32 条
