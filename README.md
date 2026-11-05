@@ -51,6 +51,18 @@
 <!-- THIS_WEEK:START -->
 ## 本周 This week（2026-W45）
 
+- **OpenAI 用自动化流水线扫描 Linux 内核，一次跑出 948 个可用提权利用并附候选补丁，API 成本约 121 万美元**  
+  OpenAI 11 月 4 日发布研究，介绍一套自动挖掘、验证并修补漏洞的流程。据 AI Affairs 转述，OpenAI 10 月中旬对 Linux 内核跑了一轮，审查 2308 个候选问题、动态复现 1724 个漏洞，最终得到 948…  
+  原始来源 Source: <https://www.aiaffairs.com/technology/openai-linux-scan-948-exploits-candidate-patches/> · Shift: <https://shift.kai-nex.com/event/evt-f74263857e4a9eaf/>
+- **OpenAI 推出 Images 2.6：ChatGPT 可直接生成并逐帧编辑 GIF，API 上线 GPT-Image-2.6 Flare 与 Sunburst**  
+  OpenAI 11 月 4 日推出图像模型 Images 2.6，向所有 ChatGPT 和 Codex 用户在网页、桌面和移动端开放。据 The Verge 报道，ChatGPT 现在可以用一句提示或一张上传的照片直接生成 GIF，并能调…  
+  原始来源 Source: <https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6> · Shift: <https://shift.kai-nex.com/event/evt-79421c05603db2e6/>
+- **OpenAI 宣布收购开发者工具公司 Pierre，将其代码存储服务并入 Codex**  
+  OpenAI 11 月 4 日宣布将收购 Pierre Computer Company，以扩充 Codex 构建、理解和审查代码的工具，交易条款未披露。Pierre 提供面向 AI Agent 的代码存储云服务 Code Storage，…  
+  原始来源 Source: <https://siliconangle.com/2026/11/04/openai-to-acquire-developer-tooling-startup-pierre-computer/> · Shift: <https://shift.kai-nex.com/event/evt-10049b983dbf08f5/>
+- **Adweek：Anthropic 与美联社达成首笔内容授权协议，Claude 选举夜引用美联社实时数据**  
+  据 Adweek 11 月 4 日援引两名知情人士报道，Anthropic 在美国中期选举前与美联社（AP）达成内容和数据授权协议，这是 Anthropic 首次付费授权数字新闻出版方的内容。选举夜在 Claude 上查询最新民调的用户，会…  
+  原始来源 Source: <https://www.adweek.com/media/anthropic-licensing-deal-ap-election/> · Shift: <https://shift.kai-nex.com/event/evt-bb8dc1ee35572b7b/>
 - **OpenAI：GPT-6 Astra 不到一周从零设计出一台硬件设备，未公开内部模型 CAD 基准成绩大幅领先**  
   OpenAI 11 月 3 日发文介绍 ChatGPT 和 Codex 在 CAD、PCB 设计和仿真等实体工程中的使用。据 The Decoder 转述，OpenAI 硬件团队用 GPT-6 Astra 在不到一周内设计出一台可与 Cod…  
   原始来源 Source: <https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/> · Shift: <https://shift.kai-nex.com/event/evt-da5ea8e479c06775/>
@@ -76,7 +88,7 @@
 
 <!-- ARCHIVE:START -->
 ## 归档 Archive
-- [2026-W45](weekly/2026-W45.md) · 7 条
+- [2026-W45](weekly/2026-W45.md) · 11 条
 - [2026-W44](weekly/2026-W44.md) · 25 条
 - [2026-W43](weekly/2026-W43.md) · 29 条
 - [2026-W42](weekly/2026-W42.md) · 32 条
