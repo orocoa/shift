@@ -51,9 +51,18 @@
 <!-- THIS_WEEK:START -->
 ## 本周 This week（2026-W45）
 
+- **OpenAI 与 Hacktron 合作排查系统漏洞，重点盯第三方服务连接，并扩大 Daybreak Red 访问**  
+  据 Unite.AI 转述，OpenAI 于 11 月 6 日宣布与安全公司 Hacktron 合作，共同寻找系统漏洞，重点放在与第三方服务的连接上，并通过 Daybreak Red 扩大 Hacktron 对相关前沿模型的访问。合作背景包…  
+  原始来源 Source: <https://www.unite.ai/openai-partners-with-hacktron-to-test-third-party-service-connections/> · Shift: <https://shift.kai-nex.com/event/evt-ba9138e8e54d59e9/>
+- **OpenAI 发布 BioBasicsBench：与 Ligo 合作的 100 项湿实验任务，GPT-6 Astra 在最高推理档得 66.7%**  
+  据 Unite.AI 与 AI Affairs 转述，OpenAI 于 11 月 6 日介绍与酶设计公司 Ligo 合作的 BioBasicsBench，用 100 项日常湿实验任务考察 AI 代理解读原始实验证据的能力。在对全部七个受测模…  
+  原始来源 Source: <https://www.unite.ai/openai-introduces-biobasicsbench-to-test-ai-agents-on-wet-lab-data/> · Shift: <https://shift.kai-nex.com/event/evt-116f53d7c3637f87/>
 - **Thinking Machines Lab 发布 Inkling 2 Small：594B 参数 MoE，先闭权重上线 Tinker，承诺下周以 Apache 2.0 放出权重**  
   Thinking Machines Lab 11 月 5 日发布第二代模型 Inkling 2 Small，是总参数 594B、激活 17B 的混合专家模型，支持图像输入和可调推理强度。它先通过自家 Tinker 平台提供，权重暂不公开，官…  
   原始来源 Source: <https://thinkingmachines.ai/news/inkling-2-small/> · Shift: <https://shift.kai-nex.com/event/evt-da42cc2c6e19a1ab/>
+- **Anthropic 推出 Claude Personal Finance：经 Plaid 只读连接银行账户，美区 Pro/Max/Ultra 本周起 beta**  
+  Anthropic 于 11 月 5 日前后宣布 Claude 新功能 Personal Finance：用户可通过 Plaid 连接银行与卡片等账户，用自然语言询问余额与开支。访问为只读，不能挪动、管理或投资资金。功能以 beta 形式在…  
+  原始来源 Source: <https://claude.com/resources/articles/introducing-personal-finance-in-claude> · Shift: <https://shift.kai-nex.com/event/evt-26f4ecc6d96eb40c/>
 - **Google 推出 Gemini Omni 1.2 Flash：视频最长 15 秒，价格降 30%，首次正式商用**  
   Google DeepMind 11 月 5 日推出 Gemini Omni 1.2 Flash，并首次让 Gemini Omni 正式可用，覆盖 Gemini API 和面向企业的 Gemini。新版支持原生 15 秒视频、多轮对话式编辑…  
   原始来源 Source: <https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/> · Shift: <https://shift.kai-nex.com/event/evt-1ecff2f34ecddc94/>
@@ -66,6 +75,9 @@
 - **OpenAI 推出 Images 2.6：ChatGPT 可直接生成并逐帧编辑 GIF，API 上线 GPT-Image-2.6 Flare 与 Sunburst**  
   OpenAI 11 月 4 日推出图像模型 Images 2.6，向所有 ChatGPT 和 Codex 用户在网页、桌面和移动端开放。据 The Verge 报道，ChatGPT 现在可以用一句提示或一张上传的照片直接生成 GIF，并能调…  
   原始来源 Source: <https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6> · Shift: <https://shift.kai-nex.com/event/evt-79421c05603db2e6/>
+- **Perplexity 推出 Teammates：基于 Computer 的常驻代理，先向 Max 用户开放 Web 版**  
+  Perplexity 发布 Teammates，称其为承接长期、进行中工作的个人代理：在 Computer 的任务、技能、记忆与工具之上规划、并行执行并跟进，直到结果供人审阅。官方称先在 Web 向 Max 订阅用户推出，随后到 iOS。T…  
+  原始来源 Source: <https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work> · Shift: <https://shift.kai-nex.com/event/evt-a1d9934a668a96ab/>
 - **腾讯发布 Hy4：首次支持视觉理解和电脑操作，价格不变，权重承诺数日内放出**  
   腾讯 11 月 4 日正式发布新一代模型 Hy4，首次加入图像理解和电脑使用能力，价格与 8 月的 Hy4 Preview 相同，官方称数日内发布权重和系统卡。独立评测方面，Artificial Analysis 给出 35 分，在中国实验…  
   原始来源 Source: <https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/> · Shift: <https://shift.kai-nex.com/event/evt-c70e7345188cb24b/>
@@ -84,23 +96,13 @@
 - **Revolut 把自托管 GLM 设为默认 AI 编程模型，称推理成本降约九成，替代 Claude Code 等商用工具**  
   据 The Register 11 月 3 日报道，英国金融科技公司 Revolut 运维与基础设施负责人 David Abitbol 在上月纽约 AI Engineer 大会上表示，公司在不到一年内把自托管的智谱 GLM 模型设为 AI…  
   原始来源 Source: <https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345> · Shift: <https://shift.kai-nex.com/event/evt-149329eb526a0dac/>
-- **Anthropic 提交招股书修订稿：前三季度营收 332 亿美元，并称未来模型可能“很快”触及 AI 加速研发门槛**  
-  Anthropic 于 11 月 2 日向美国 SEC 提交 S-1 第一号修订稿，补入截至 9 月 30 日的财务：前九个月营收 332.4 亿美元，第三季度营收 169.6 亿美元、净亏损 232.9 亿美元，亏损主要来自可转债等金融工…  
-  原始来源 Source: <https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm> · Shift: <https://shift.kai-nex.com/event/evt-c6d2cbc0bf820046/>
-- **OpenAI 公布自研 Git 后端 Pando：为应对 Codex 带来的并行开发量，推送延迟降近 5 倍**  
-  OpenAI 11 月 2 日发布工程博客，介绍为内部单一代码仓库重建的 Git 兼容后端 Pando。按 CellCog 对原文的转述，Codex 让工程师可以同时推进多项改动，旧系统一度可靠性低于 90%；Pando 上线后推送中位延迟…  
-  原始来源 Source: <https://cellcog.ai/blog/openai-pando-git/> · Shift: <https://shift.kai-nex.com/event/evt-d8e688b97199f71f/>
-- **OpenAI 提高漏洞赏金：例外级发现含奖金最高 17.2 万美元，并与 Cathedral 开展下一轮 AI 攻防冲刺**  
-  OpenAI 11 月 2 日宣布，将严重级漏洞的赏金区间提高四倍以上，核心产品的严重漏洞最高 3 万美元，例外级发现加上奖金最高可达 17.2 万美元。同日 OpenAI 还宣布，安全公司 Cathedral 的研究人员将加入其下一轮内部…  
-  原始来源 Source: <https://alphasignal.ai/news/openai-raises-bug-bounty-to-172-000-to-hunt-its-own-flaws> · Shift: <https://shift.kai-nex.com/event/evt-cf1707b3c10b33ca/>
-- **高盛收回交易员与银行家的 AI 编程工具，Claude Code、Copilot 改为仅限工程师使用**  
-  据 The Decoder 11 月 2 日引述 Bloomberg 报道，高盛依据 10 月的内部规定，停止大多数员工使用 Anthropic 的 Claude Code、GitHub Copilot 等高级 AI 编程工具，只有工程师仍…  
-  原始来源 Source: <https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/> · Shift: <https://shift.kai-nex.com/event/evt-5d1b9e55879b5bf7/>
+
+[查看本周全部 19 条 See all →](weekly/2026-W45.md)
 <!-- THIS_WEEK:END -->
 
 <!-- ARCHIVE:START -->
 ## 归档 Archive
-- [2026-W45](weekly/2026-W45.md) · 15 条
+- [2026-W45](weekly/2026-W45.md) · 19 条
 - [2026-W44](weekly/2026-W44.md) · 25 条
 - [2026-W43](weekly/2026-W43.md) · 29 条
 - [2026-W42](weekly/2026-W42.md) · 32 条
