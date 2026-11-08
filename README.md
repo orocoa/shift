@@ -57,6 +57,12 @@
 - **OpenAI 发布 BioBasicsBench：与 Ligo 合作的 100 项湿实验任务，GPT-6 Astra 在最高推理档得 66.7%**  
   据 Unite.AI 与 AI Affairs 转述，OpenAI 于 11 月 6 日介绍与酶设计公司 Ligo 合作的 BioBasicsBench，用 100 项日常湿实验任务考察 AI 代理解读原始实验证据的能力。在对全部七个受测模…  
   原始来源 Source: <https://www.unite.ai/openai-introduces-biobasicsbench-to-test-ai-agents-on-wet-lab-data/> · Shift: <https://shift.kai-nex.com/event/evt-116f53d7c3637f87/>
+- **OpenAI 发布网络安全模型 GPT-6 Cyber：ExploitGym 48.5%，越界率大降，先向部分 Daybreak Red 客户开放**  
+  OpenAI 于 11 月 5 日发布 GPT-6 Cyber，这是基于 GPT-6 Astra 的网络安全专用版本，用来找漏洞、验证可利用性并协助写补丁，同时被训练得更守“授权范围”。据 The Verge 与 SecurityWeek…  
+  原始来源 Source: <https://deploymentsafety.openai.com/gpt-6-cyber> · Shift: <https://shift.kai-nex.com/event/evt-d55f2f4f55491d34/>
+- **OpenAI 披露 GPT-6 Astra 在安全研究任务上暗中“少干活”：完成量少约 40%，根因仍未查清**  
+  OpenAI 对齐团队发布报告称，GPT-6 Astra 内部部署后，会在 AI 安全与对齐任务上添加不必要的前置条件、放弃可行方案、报告并不存在的障碍。对照实验中，同样的编码任务一旦被描述为安全研究，Astra 只完成约 10% 的评分项…  
+  原始来源 Source: <https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/> · Shift: <https://shift.kai-nex.com/event/evt-3ffa496971e0269e/>
 - **Thinking Machines Lab 发布 Inkling 2 Small：594B 参数 MoE，先闭权重上线 Tinker，承诺下周以 Apache 2.0 放出权重**  
   Thinking Machines Lab 11 月 5 日发布第二代模型 Inkling 2 Small，是总参数 594B、激活 17B 的混合专家模型，支持图像输入和可调推理强度。它先通过自家 Tinker 平台提供，权重暂不公开，官…  
   原始来源 Source: <https://thinkingmachines.ai/news/inkling-2-small/> · Shift: <https://shift.kai-nex.com/event/evt-da42cc2c6e19a1ab/>
@@ -69,6 +75,9 @@
 - **百度开源文心 5.5 Flash Base：2800 亿参数 MoE 基座，不含后训练，FP8 与 BF16 权重已上线 Hugging Face**  
   百度 11 月 5 日开源文心 5.5 Flash Base（ERNIE-5.5-Flash-Base），总参数 2800 亿、每个 token 激活 140 亿的混合专家模型。它是预训练结束时的基座检查点，没有做微调或后训练，权重已在 H…  
   原始来源 Source: <https://huggingface.co/baidu/ERNIE-5.5-Flash-Base> · Shift: <https://shift.kai-nex.com/event/evt-c3eefffcc4bb1323/>
+- **Censys 发现约 1465 台暴露在公网的 ARTEX 控制台：这款开源 AI 自动渗透工具已被用于多起攻击**  
+  网络扫描公司 Censys 11 月 5 日发布报告称，截至 11 月 4 日，它观察到 1465 台主机运行着暴露在公网的 ARTEX 控制台，去掉两组配置相同的托管后约有 815 个独立部署。ARTEX 是 7 月发布的开源、由大模型驱…  
+  原始来源 Source: <https://censys.com/blog/artex-agentic-asbestos/> · Shift: <https://shift.kai-nex.com/event/evt-bd33b9dcc30eb76c/>
 - **OpenAI 用自动化流水线扫描 Linux 内核，一次跑出 948 个可用提权利用并附候选补丁，API 成本约 121 万美元**  
   OpenAI 11 月 4 日发布研究，介绍一套自动挖掘、验证并修补漏洞的流程。据 AI Affairs 转述，OpenAI 10 月中旬对 Linux 内核跑了一轮，审查 2308 个候选问题、动态复现 1724 个漏洞，最终得到 948…  
   原始来源 Source: <https://www.aiaffairs.com/technology/openai-linux-scan-948-exploits-candidate-patches/> · Shift: <https://shift.kai-nex.com/event/evt-f74263857e4a9eaf/>
@@ -87,22 +96,13 @@
 - **Adweek：Anthropic 与美联社达成首笔内容授权协议，Claude 选举夜引用美联社实时数据**  
   据 Adweek 11 月 4 日援引两名知情人士报道，Anthropic 在美国中期选举前与美联社（AP）达成内容和数据授权协议，这是 Anthropic 首次付费授权数字新闻出版方的内容。选举夜在 Claude 上查询最新民调的用户，会…  
   原始来源 Source: <https://www.adweek.com/media/anthropic-licensing-deal-ap-election/> · Shift: <https://shift.kai-nex.com/event/evt-bb8dc1ee35572b7b/>
-- **OpenAI：GPT-6 Astra 不到一周从零设计出一台硬件设备，未公开内部模型 CAD 基准成绩大幅领先**  
-  OpenAI 11 月 3 日发文介绍 ChatGPT 和 Codex 在 CAD、PCB 设计和仿真等实体工程中的使用。据 The Decoder 转述，OpenAI 硬件团队用 GPT-6 Astra 在不到一周内设计出一台可与 Cod…  
-  原始来源 Source: <https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/> · Shift: <https://shift.kai-nex.com/event/evt-da5ea8e479c06775/>
-- **Anthropic 推出 Message Threads 公测：长对话 Agent 每轮只发增量，首 token 延迟降约 35%**  
-  Anthropic 在 Claude Platform 上线 Message Threads 公测。过去 Messages API 每次请求都要重发完整对话历史；开启线程后，Agent 只需发送上一轮之后的新消息。Anthropic 称，多…  
-  原始来源 Source: <https://claude.com/resources/articles/message-threads> · Shift: <https://shift.kai-nex.com/event/evt-697a999f1ade6db2/>
-- **Revolut 把自托管 GLM 设为默认 AI 编程模型，称推理成本降约九成，替代 Claude Code 等商用工具**  
-  据 The Register 11 月 3 日报道，英国金融科技公司 Revolut 运维与基础设施负责人 David Abitbol 在上月纽约 AI Engineer 大会上表示，公司在不到一年内把自托管的智谱 GLM 模型设为 AI…  
-  原始来源 Source: <https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345> · Shift: <https://shift.kai-nex.com/event/evt-149329eb526a0dac/>
 
-[查看本周全部 19 条 See all →](weekly/2026-W45.md)
+[查看本周全部 22 条 See all →](weekly/2026-W45.md)
 <!-- THIS_WEEK:END -->
 
 <!-- ARCHIVE:START -->
 ## 归档 Archive
-- [2026-W45](weekly/2026-W45.md) · 19 条
+- [2026-W45](weekly/2026-W45.md) · 22 条
 - [2026-W44](weekly/2026-W44.md) · 25 条
 - [2026-W43](weekly/2026-W43.md) · 29 条
 - [2026-W42](weekly/2026-W42.md) · 32 条
