@@ -51,6 +51,15 @@
 <!-- THIS_WEEK:START -->
 ## 本周 This week（2026-W45）
 
+- **Qwen Code 0.27.0 更新托管会话：多个子任务可同时提问，草稿与错误分开保存**  
+  Qwen Code 在上海时间 11 月 8 日凌晨发布 0.27.0。这个工具版本让托管智能体会话保留多个待答子任务问题，支持不按顺序回答，并更新 Web Shell 和 GitHub 渠道操作；同时修复死锁、会话保存和部分凭据显示问题，…  
+  原始来源 Source: <https://github.com/QwenLM/qwen-code/releases/tag/v0.27.0> · Shift: <https://shift.kai-nex.com/event/evt-d0f03db93a2e49c1/>
+- **Google ADK 2.14.0：A2A 与执行环境转稳定，加入多轮并行评测和 Teams 集成**  
+  Google 的 Python 智能体开发工具 ADK 在 GitHub 发布 2.14.0，将执行环境、A2A、评测及核心运行时的一批接口从实验状态转为稳定，并加入重复并行评测、工具参数语义比较与 Microsoft Teams 集成。升…  
+  原始来源 Source: <https://github.com/google/adk-python/releases/tag/v2.14.0> · Shift: <https://shift.kai-nex.com/event/evt-08cbae8a59ab7186/>
+- **Anthropic 详解智能体记忆：让 Claude 在会话间“做梦”纠错，wiki 并非总比搜索好**  
+  Anthropic 11 月 6 日发布工程研究，介绍 Claude 如何在会话间回看日志、纠正错误记忆并整理关联知识。公司内部评测显示，离线整理可提升特定文档任务的表现，但增益取决于任务，维护记忆也要额外计算；这不是 Claude 全产品…  
+  原始来源 Source: <https://www.anthropic.com/research/components-of-agent-memory> · Shift: <https://shift.kai-nex.com/event/evt-b621f5773bed3c52/>
 - **OpenAI 与 Hacktron 合作排查系统漏洞，重点盯第三方服务连接，并扩大 Daybreak Red 访问**  
   据 Unite.AI 转述，OpenAI 于 11 月 6 日宣布与安全公司 Hacktron 合作，共同寻找系统漏洞，重点放在与第三方服务的连接上，并通过 Daybreak Red 扩大 Hacktron 对相关前沿模型的访问。合作背景包…  
   原始来源 Source: <https://www.unite.ai/openai-partners-with-hacktron-to-test-third-party-service-connections/> · Shift: <https://shift.kai-nex.com/event/evt-ba9138e8e54d59e9/>
@@ -87,22 +96,13 @@
 - **Perplexity 推出 Teammates：基于 Computer 的常驻代理，先向 Max 用户开放 Web 版**  
   Perplexity 发布 Teammates，称其为承接长期、进行中工作的个人代理：在 Computer 的任务、技能、记忆与工具之上规划、并行执行并跟进，直到结果供人审阅。官方称先在 Web 向 Max 订阅用户推出，随后到 iOS。T…  
   原始来源 Source: <https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work> · Shift: <https://shift.kai-nex.com/event/evt-a1d9934a668a96ab/>
-- **腾讯发布 Hy4：首次支持视觉理解和电脑操作，价格不变，权重承诺数日内放出**  
-  腾讯 11 月 4 日正式发布新一代模型 Hy4，首次加入图像理解和电脑使用能力，价格与 8 月的 Hy4 Preview 相同，官方称数日内发布权重和系统卡。独立评测方面，Artificial Analysis 给出 35 分，在中国实验…  
-  原始来源 Source: <https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/> · Shift: <https://shift.kai-nex.com/event/evt-c70e7345188cb24b/>
-- **OpenAI 宣布收购开发者工具公司 Pierre，将其代码存储服务并入 Codex**  
-  OpenAI 11 月 4 日宣布将收购 Pierre Computer Company，以扩充 Codex 构建、理解和审查代码的工具，交易条款未披露。Pierre 提供面向 AI Agent 的代码存储云服务 Code Storage，…  
-  原始来源 Source: <https://siliconangle.com/2026/11/04/openai-to-acquire-developer-tooling-startup-pierre-computer/> · Shift: <https://shift.kai-nex.com/event/evt-10049b983dbf08f5/>
-- **Adweek：Anthropic 与美联社达成首笔内容授权协议，Claude 选举夜引用美联社实时数据**  
-  据 Adweek 11 月 4 日援引两名知情人士报道，Anthropic 在美国中期选举前与美联社（AP）达成内容和数据授权协议，这是 Anthropic 首次付费授权数字新闻出版方的内容。选举夜在 Claude 上查询最新民调的用户，会…  
-  原始来源 Source: <https://www.adweek.com/media/anthropic-licensing-deal-ap-election/> · Shift: <https://shift.kai-nex.com/event/evt-bb8dc1ee35572b7b/>
 
-[查看本周全部 22 条 See all →](weekly/2026-W45.md)
+[查看本周全部 25 条 See all →](weekly/2026-W45.md)
 <!-- THIS_WEEK:END -->
 
 <!-- ARCHIVE:START -->
 ## 归档 Archive
-- [2026-W45](weekly/2026-W45.md) · 22 条
+- [2026-W45](weekly/2026-W45.md) · 25 条
 - [2026-W44](weekly/2026-W44.md) · 25 条
 - [2026-W43](weekly/2026-W43.md) · 29 条
 - [2026-W42](weekly/2026-W42.md) · 32 条
